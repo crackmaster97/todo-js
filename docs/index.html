@@ -1,22 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack</title>
-<link href="main.c9be7f6706a28700d217.css" rel="stylesheet"></head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="assets/logo.ico">
+		<title>Template • TodoMVC</title>
+	<link href="main.e97b0486bcaae24e2e40.css" rel="stylesheet"></head>
+	<body>
+		<section class="todoapp">
+			<header class="header">
+				<h1>Tareas</h1>
+				<input class="new-todo" placeholder="¿Qué necesita ser hecho?" autofocus>
+			</header>
+			<!-- Esta sección debe estar oculta por defecto y mostrarse cuando hay todos -->
+			<section class="main">
+				<input id="toggle-all" class="toggle-all" type="checkbox">
+				<label for="toggle-all">Mark all as complete</label>
+				<ul class="todo-list">
+					<!-- Estos están aquí solo para mostrar la estructura de los elementos de la lista. -->
+					<!-- Los elementos de la lista deben tener la clase "edición" cuando se editan y "completados" cuando se marcan como completados. -->
+					<!-- <li class="completed" data-id="abc">
+						<div class="view">
+							<input class="toggle" type="checkbox" checked>
+							<label>Probar JavaScript</label>
+							<button class="destroy"></button>
+						</div>
+						<input class="edit" value="Create a TodoMVC template">
+					</li> -->
+					<!-- <li>
+						<div class="view">
+							<input class="toggle" type="checkbox">
+							<label>Comprar un unicornio</label>
+							<button class="destroy"></button>
+						</div>
+						<input class="edit" value="Rule the web">
+					</li> -->
+				</ul>
+			</section>
+			<!-- Este pie de página debería estar oculto por defecto y mostrarse cuando hay todos -->
+			<footer class="footer">
+				<!-- Esto debería ser "0 elementos restantes" por defecto -->
+				<!--<span class="todo-count"><strong>0</strong> pendiente(s)</span>-->
+				<ul class="filters">
+					<li>
+						<a class="selected filtro" href="#/">Todos</a>
+					</li>
+					<li>
+						<a class="filtro" href="#/active">Pendientes</a>
+					</li>
+					<li>
+						<a class="filtro" href="#/completed">Completados</a>
+					</li>
+				</ul>
+				<!-- Oculto si no quedan elementos completados  ↓ -->
+				<button class="clear-completed">Borrar completados</button>
+			</footer>
+		</section>
+		<footer class="info">
 
-    <img src="assets/webpack-sprite.png" alt="Webpack logo" width="250px">
-
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    <!-- Este es un comentario en HTML -->
-    
-<script type="text/javascript" src="main.0d7cfbbe34c458d9ccea.js"></script></body>
+			<p>App de tareas creado por <a href="https://www.instagram.com/lautaro_parker/">Lautaro Parker</a></p>
+			
+		</footer>
+        
+        
+	<script type="text/javascript" src="main.2e0f34cd013a975d4533.js"></script></body>
 </html>
