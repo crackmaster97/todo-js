@@ -1,14 +1,3 @@
-# Webpack Starter
+# Aplicación de tareas
 
-Este es el proyecto inicial para crear aplicaciones utilizando webpack.
-
-### Notas:
-Recuerden reconstruir los módulos de Node
-```
-npm install
-```
-
-Y para construir el build, recueren:
-```
-npm run build
-```
+https://crackmaster97.github.io/todo-js/
